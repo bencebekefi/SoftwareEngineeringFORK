@@ -2,7 +2,7 @@
 
 int main()
 {
-    int i = 0;
+    int i = 6;
 
     puts("Start while loop");
 
@@ -13,5 +13,5 @@ int main()
     }
 
     printf("Exiting with i=%d\n", i);
-}
+  }
 
