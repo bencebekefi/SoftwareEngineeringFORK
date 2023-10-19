@@ -5,7 +5,7 @@ using namespace std;
 
 void displayLineOfStars(int stringLen)
 {
-	for (unsigned int n = 0; n < (stringLen + 4); n++) {
+	for (unsigned int n = 0; n  < (stringLen + 4); n++) {
 		cout << "*";
 	}
 	cout << endl;
