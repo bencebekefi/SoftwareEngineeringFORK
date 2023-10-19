@@ -16,7 +16,7 @@ int main()
         printf("You also pressed return (ASCII %d)\n", returnKey);    //Uncomment this
 
     //Use either of the following lines (but not both)
-    } while ((userEnteredCharacter != 'q') && (userEnteredCharacter != 'Q'));            //Repeat if condition is met - note the != operator
+    } while ((userEnteredCharacter != 'q');           //Repeat if condition is met - note the != operator
     
     puts("Finished");
 }

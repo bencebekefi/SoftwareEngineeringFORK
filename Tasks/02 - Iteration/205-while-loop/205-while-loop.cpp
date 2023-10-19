@@ -13,5 +13,5 @@ int main()
     }
 
     printf("Exiting with i=%d\n", i);
-}
+  }
 
