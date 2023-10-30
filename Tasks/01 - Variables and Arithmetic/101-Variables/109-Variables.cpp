@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main()
-{ // Block opening brace
+ { // Block opening brace
 
 	char c = 88;				// Character (1 byte)
 	short year = 2023;			// Short integer
@@ -25,7 +25,8 @@ int main()
 	printf("And then after that, you will be %d\n", ageNextYear);
 
 	//Overflow
-	year = 32767;
+	year = 65535;
+	year = 65535;
 	year = year + 1;
 	printf("year = %d\n", year);
 
