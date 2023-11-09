@@ -9,6 +9,7 @@ int main()
     char moduleName[] = "Comp1000";
     const char institutionName[] = "University of Plymouth";
 
+
     //Print a string 
     printf("Module: %s\n", moduleName);
     printf("Institution: %s\n", institutionName);
@@ -22,7 +23,7 @@ int main()
     //Print as an array of numbers
     puts("Inspecting the array contents");
     for (int n = 0; n < N; n++) {       //Note I am using N and not L
-        printf("%d\t", moduleName[n]);  //De-reference the array of characters
+         printf("%d\t", moduleName[n]);  //De-reference the array of characters
     }
     puts(""); puts("*****************************************************************");
 
