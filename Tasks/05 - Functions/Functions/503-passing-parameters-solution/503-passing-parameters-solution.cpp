@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-void displayBanner(int stringLen)
+void displayLineOfStars(int stringLen)
+//do a line of staRS RIGHT LENGTH
 {
 	for (unsigned int n = 0; n < (stringLen + 4); n++) {
 		cout << "*";
@@ -15,14 +16,14 @@ void displayWithinBanner(string message)
 	int L = message.length();			//L is now a LOCAL variable
 
 	//Write the banner above
-	displayBanner(L);
+	displayLineOfStars(L);
 
 	cout << "* ";				//Leading *
 	cout << message;			//Message
 	cout << " *" << endl;		//Trailing *
 
 	//Write the banner below
-	displayBanner(L);
+	displayLineOfStars(L);
 }
 
 int main()

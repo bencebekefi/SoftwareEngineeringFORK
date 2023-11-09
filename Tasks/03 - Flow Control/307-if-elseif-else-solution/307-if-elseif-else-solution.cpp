@@ -44,7 +44,13 @@ int main()
     */
 
     // Mutuallly Exclusive Decision Pathway
-    if (level <= 5)
+    if (level == 0)
+    {
+        cout << "The tank is empty. Please refuel." << endl;
+
+    }
+    
+    else if (level <= 5)
     {
         cout << "Dangerously Low" << endl;
     }

@@ -3,6 +3,7 @@ using namespace std;
 
 int L;		//This is not an ideal location - we will soon address this
 
+
 int main()
 {
 	const string message = "Welcome to Computer Science";
@@ -28,4 +29,4 @@ int main()
 
 	//Tell the calling shell all is well
 	return 0;
-}
+}-

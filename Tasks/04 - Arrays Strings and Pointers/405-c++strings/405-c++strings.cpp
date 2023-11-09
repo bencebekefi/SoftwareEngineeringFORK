@@ -79,5 +79,5 @@ int main()
     const char* str = strYear.c_str();
 
     cout << "C string version is " << str << endl;
-}
+ }
 
